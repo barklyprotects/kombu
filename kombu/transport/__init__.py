@@ -69,7 +69,6 @@ TRANSPORT_ALIASES = {
     'zmq': 'kombu.transport.zmq:Transport',
     'amqplib': 'kombu.transport.amqplib:Transport',
     'qpid': 'kombu.transport.qpid:Transport',
-    'sentinel': 'kombu.transport.redis.SentinelTransport',
 }
 
 _transport_cache = {}
